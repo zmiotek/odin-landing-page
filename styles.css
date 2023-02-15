@@ -4,6 +4,24 @@ body {
     margin: 0;
 }
 
+body > * {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    color: white;
+    background-color: #3882f6;
+}
+
 .top-section {
     padding: 0 5% 0 5%;
     background-color: #1f2937;
@@ -23,5 +41,31 @@ body {
     display: flex;
     gap: 30px;
     color: #e5e7eb
-    
 }
+
+.first-section {
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.fs-left > p {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0 auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.fs-right {
+    display: flex;
+    flex: 1 1 50%;
+    width: 50%;
+    background-color: darkgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+
